@@ -4,6 +4,10 @@
 *.ear
 *.class
 
+# idea specific git ignore
+.idea
+*.iml
+
 # eclipse specific git ignore
 *.pydevproject
 .project
@@ -25,3 +29,6 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
+
+# generated output
+ScreenShots/**
